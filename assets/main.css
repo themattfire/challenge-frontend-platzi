@@ -1,0 +1,1242 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap);
+@media screen and (max-width: 1200px) {
+  .Header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Header-container .Header-title {
+    width: 100%;
+    text-align: center;
+  }
+  .Header-container .Header-job-title {
+    text-align: center;
+  }
+  .Header-container .About-title {
+    width: 100%;
+    justify-content: center;
+  }
+  .Header-container .About-title img:nth-of-type(4) {
+    padding-left: 2rem;
+  }
+  .Profile-title h4 {
+    text-align: center;
+  }
+  .Experience-title h4 {
+    text-align: center;
+  }
+  .Experience-title .experience__card .card__jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Experience-title .experience__card .card__projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Academic-title {
+    padding-left: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Academic-title h4 {
+    text-align: center;
+  }
+  .Academic-title .Academic-item {
+    text-align: center;
+    width: 100%;
+  }
+  .Skills-title {
+    padding-right: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Skills-title h4 {
+    text-align: center;
+  }
+  .Skills-title .Skills-item {
+    text-align: center;
+  }
+  .Skills-title h2 {
+    text-align: center;
+  }
+  .habs__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .int__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+html body h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+}
+html body h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #ffba0a;
+}
+html body h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #ffba0a;
+}
+html body h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  text-align: left;
+}
+html body a {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:visited {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+  .Header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Header-container .Header-title {
+    width: 100%;
+    text-align: center;
+  }
+  .Header-container .Header-job-title {
+    text-align: center;
+  }
+  .Header-container .About-title {
+    width: 100%;
+    justify-content: center;
+  }
+  .Header-container .About-title img:nth-of-type(4) {
+    padding-left: 2rem;
+  }
+  .Profile-title h4 {
+    text-align: center;
+  }
+  .Experience-title h4 {
+    text-align: center;
+  }
+  .Experience-title .experience__card .card__jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Experience-title .experience__card .card__projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Academic-title {
+    padding-left: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Academic-title h4 {
+    text-align: center;
+  }
+  .Academic-title .Academic-item {
+    text-align: center;
+    width: 100%;
+  }
+  .Skills-title {
+    padding-right: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Skills-title h4 {
+    text-align: center;
+  }
+  .Skills-title .Skills-item {
+    text-align: center;
+  }
+  .Skills-title h2 {
+    text-align: center;
+  }
+  .habs__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .int__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+html body h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+}
+html body h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #ffba0a;
+}
+html body h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #ffba0a;
+}
+html body h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  text-align: left;
+}
+html body a {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:visited {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:hover {
+  text-decoration: underline;
+}
+.Base-container {
+  justify-content: center;
+  padding: 10rem;
+  box-shadow: 0px 0px 75px -35px rgba(0,0,0,0.25);
+}
+.Header-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: ".Header-pic Header-title" ".Header-pic About-container";
+  width: 100%;
+  height: 100%;
+  gap: 1rem 10rem;
+}
+.Header-container .Header-pic {
+  grid-area: Header-pic;
+}
+.Header-container .Header-pic img {
+  border-radius: 300px 0px 300px 300px;
+}
+.Header-container .Header-name {
+  grid-area: Header-title;
+  width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .Header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Header-container .Header-title {
+    width: 100%;
+    text-align: center;
+  }
+  .Header-container .Header-job-title {
+    text-align: center;
+  }
+  .Header-container .About-title {
+    width: 100%;
+    justify-content: center;
+  }
+  .Header-container .About-title img:nth-of-type(4) {
+    padding-left: 2rem;
+  }
+  .Profile-title h4 {
+    text-align: center;
+  }
+  .Experience-title h4 {
+    text-align: center;
+  }
+  .Experience-title .experience__card .card__jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Experience-title .experience__card .card__projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Academic-title {
+    padding-left: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Academic-title h4 {
+    text-align: center;
+  }
+  .Academic-title .Academic-item {
+    text-align: center;
+    width: 100%;
+  }
+  .Skills-title {
+    padding-right: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Skills-title h4 {
+    text-align: center;
+  }
+  .Skills-title .Skills-item {
+    text-align: center;
+  }
+  .Skills-title h2 {
+    text-align: center;
+  }
+  .habs__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .int__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+html body h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+}
+html body h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #ffba0a;
+}
+html body h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #ffba0a;
+}
+html body h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  text-align: left;
+}
+html body a {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:visited {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:hover {
+  text-decoration: underline;
+}
+.About-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  grid-area: About-container;
+}
+.About-container .Header-job-title {
+  text-align: left;
+}
+.About-container .About-title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  line-height: 5rem;
+  justify-content: left;
+}
+.About-container .About-title img {
+  width: 1.5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.About-container .About-title img:first-child {
+  padding-left: 0;
+}
+.About-container .About-title img:nth-of-type(4) {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .Header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Header-container .Header-title {
+    width: 100%;
+    text-align: center;
+  }
+  .Header-container .Header-job-title {
+    text-align: center;
+  }
+  .Header-container .About-title {
+    width: 100%;
+    justify-content: center;
+  }
+  .Header-container .About-title img:nth-of-type(4) {
+    padding-left: 2rem;
+  }
+  .Profile-title h4 {
+    text-align: center;
+  }
+  .Experience-title h4 {
+    text-align: center;
+  }
+  .Experience-title .experience__card .card__jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Experience-title .experience__card .card__projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Academic-title {
+    padding-left: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Academic-title h4 {
+    text-align: center;
+  }
+  .Academic-title .Academic-item {
+    text-align: center;
+    width: 100%;
+  }
+  .Skills-title {
+    padding-right: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Skills-title h4 {
+    text-align: center;
+  }
+  .Skills-title .Skills-item {
+    text-align: center;
+  }
+  .Skills-title h2 {
+    text-align: center;
+  }
+  .habs__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .int__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+html body h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+}
+html body h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #ffba0a;
+}
+html body h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #ffba0a;
+}
+html body h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  text-align: left;
+}
+html body a {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:visited {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:hover {
+  text-decoration: underline;
+}
+.Profile-title {
+  padding: 10rem;
+}
+.Profile-title h2 {
+  padding: 4rem 20rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .Header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Header-container .Header-title {
+    width: 100%;
+    text-align: center;
+  }
+  .Header-container .Header-job-title {
+    text-align: center;
+  }
+  .Header-container .About-title {
+    width: 100%;
+    justify-content: center;
+  }
+  .Header-container .About-title img:nth-of-type(4) {
+    padding-left: 2rem;
+  }
+  .Profile-title h4 {
+    text-align: center;
+  }
+  .Experience-title h4 {
+    text-align: center;
+  }
+  .Experience-title .experience__card .card__jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Experience-title .experience__card .card__projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Academic-title {
+    padding-left: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Academic-title h4 {
+    text-align: center;
+  }
+  .Academic-title .Academic-item {
+    text-align: center;
+    width: 100%;
+  }
+  .Skills-title {
+    padding-right: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Skills-title h4 {
+    text-align: center;
+  }
+  .Skills-title .Skills-item {
+    text-align: center;
+  }
+  .Skills-title h2 {
+    text-align: center;
+  }
+  .habs__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .int__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+html body h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+}
+html body h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #ffba0a;
+}
+html body h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #ffba0a;
+}
+html body h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  text-align: left;
+}
+html body a {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:visited {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:hover {
+  text-decoration: underline;
+}
+.Experience-title {
+  padding: 10rem;
+}
+.Experience-title .experience__card .card__jobs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+.Experience-title .experience__card .card__projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+  align-items: center;
+  margin-top: 4rem;
+}
+.Experience-title .experience__card .Experience-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f4f4f4;
+  border-radius: 2rem;
+  padding: 4rem;
+  width: 59.8rem;
+}
+.Experience-title .experience__card .Experience-item .card__date,
+.Experience-title .experience__card .Experience-item .card__more {
+  text-align: right;
+}
+.Experience-title .experience__card .Experience-item .card__more {
+  self-align: baseline;
+}
+
+@media screen and (max-width: 1200px) {
+  .Header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Header-container .Header-title {
+    width: 100%;
+    text-align: center;
+  }
+  .Header-container .Header-job-title {
+    text-align: center;
+  }
+  .Header-container .About-title {
+    width: 100%;
+    justify-content: center;
+  }
+  .Header-container .About-title img:nth-of-type(4) {
+    padding-left: 2rem;
+  }
+  .Profile-title h4 {
+    text-align: center;
+  }
+  .Experience-title h4 {
+    text-align: center;
+  }
+  .Experience-title .experience__card .card__jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Experience-title .experience__card .card__projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Academic-title {
+    padding-left: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Academic-title h4 {
+    text-align: center;
+  }
+  .Academic-title .Academic-item {
+    text-align: center;
+    width: 100%;
+  }
+  .Skills-title {
+    padding-right: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Skills-title h4 {
+    text-align: center;
+  }
+  .Skills-title .Skills-item {
+    text-align: center;
+  }
+  .Skills-title h2 {
+    text-align: center;
+  }
+  .habs__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .int__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+html body h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+}
+html body h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #ffba0a;
+}
+html body h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #ffba0a;
+}
+html body h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  text-align: left;
+}
+html body a {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:visited {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:hover {
+  text-decoration: underline;
+}
+.Academic-title {
+  padding-left: 10rem;
+  margin-bottom: 4rem;
+  margin-top: 6rem;
+  width: 25%;
+}
+.Academic-title img {
+  width: 3rem;
+}
+.Academic-title .Academic-item {
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .Header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Header-container .Header-title {
+    width: 100%;
+    text-align: center;
+  }
+  .Header-container .Header-job-title {
+    text-align: center;
+  }
+  .Header-container .About-title {
+    width: 100%;
+    justify-content: center;
+  }
+  .Header-container .About-title img:nth-of-type(4) {
+    padding-left: 2rem;
+  }
+  .Profile-title h4 {
+    text-align: center;
+  }
+  .Experience-title h4 {
+    text-align: center;
+  }
+  .Experience-title .experience__card .card__jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Experience-title .experience__card .card__projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Academic-title {
+    padding-left: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Academic-title h4 {
+    text-align: center;
+  }
+  .Academic-title .Academic-item {
+    text-align: center;
+    width: 100%;
+  }
+  .Skills-title {
+    padding-right: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Skills-title h4 {
+    text-align: center;
+  }
+  .Skills-title .Skills-item {
+    text-align: center;
+  }
+  .Skills-title h2 {
+    text-align: center;
+  }
+  .habs__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .int__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+html body h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+}
+html body h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #ffba0a;
+}
+html body h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #ffba0a;
+}
+html body h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  text-align: left;
+}
+html body a {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:visited {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:hover {
+  text-decoration: underline;
+}
+.Skills-title {
+  text-align: right;
+  padding-right: 10rem;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  width: 25%;
+}
+.Skills-title h4 {
+  text-align: right;
+}
+.Skills-title .Skills-item {
+  text-align: right;
+}
+.Skills-title .Skills-item h2 {
+  text-align: right;
+}
+.habs__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+  .Header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Header-container .Header-title {
+    width: 100%;
+    text-align: center;
+  }
+  .Header-container .Header-job-title {
+    text-align: center;
+  }
+  .Header-container .About-title {
+    width: 100%;
+    justify-content: center;
+  }
+  .Header-container .About-title img:nth-of-type(4) {
+    padding-left: 2rem;
+  }
+  .Profile-title h4 {
+    text-align: center;
+  }
+  .Experience-title h4 {
+    text-align: center;
+  }
+  .Experience-title .experience__card .card__jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Experience-title .experience__card .card__projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Academic-title {
+    padding-left: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Academic-title h4 {
+    text-align: center;
+  }
+  .Academic-title .Academic-item {
+    text-align: center;
+    width: 100%;
+  }
+  .Skills-title {
+    padding-right: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Skills-title h4 {
+    text-align: center;
+  }
+  .Skills-title .Skills-item {
+    text-align: center;
+  }
+  .Skills-title h2 {
+    text-align: center;
+  }
+  .habs__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .int__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+html body h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+}
+html body h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #ffba0a;
+}
+html body h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #ffba0a;
+}
+html body h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  text-align: left;
+}
+html body a {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:visited {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:hover {
+  text-decoration: underline;
+}
+.Interest-title {
+  background-color: #ffba0a;
+  padding: 4rem 10rem;
+  width: 25%;
+}
+.Interest-title .Interest-item {
+  color: #fff;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .Header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Header-container .Header-title {
+    width: 100%;
+    text-align: center;
+  }
+  .Header-container .Header-job-title {
+    text-align: center;
+  }
+  .Header-container .About-title {
+    width: 100%;
+    justify-content: center;
+  }
+  .Header-container .About-title img:nth-of-type(4) {
+    padding-left: 2rem;
+  }
+  .Profile-title h4 {
+    text-align: center;
+  }
+  .Experience-title h4 {
+    text-align: center;
+  }
+  .Experience-title .experience__card .card__jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Experience-title .experience__card .card__projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Academic-title {
+    padding-left: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Academic-title h4 {
+    text-align: center;
+  }
+  .Academic-title .Academic-item {
+    text-align: center;
+    width: 100%;
+  }
+  .Skills-title {
+    padding-right: 0;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    width: 50%;
+  }
+  .Skills-title h4 {
+    text-align: center;
+  }
+  .Skills-title .Skills-item {
+    text-align: center;
+  }
+  .Skills-title h2 {
+    text-align: center;
+  }
+  .habs__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .int__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+html body h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+}
+html body h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #ffba0a;
+}
+html body h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #ffba0a;
+}
+html body h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  text-align: left;
+}
+html body a {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:visited {
+  color: #ffba0a;
+  text-decoration: none;
+}
+html body a:hover {
+  text-decoration: underline;
+}
+.Languages-title {
+  background-color: #ffba0a;
+  padding: 4rem 10rem;
+  width: 25%;
+}
+.Languages-title .Languages-item {
+  color: #fff;
+  padding: 2rem;
+}
+.int__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffba0a;
+}
+
